@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Thirukkural (திருக்குறள்)</h1>
+    </header>
+    <div class="button-sec">
+        <h2>Kural (குறள்)</h2>
+        <h2 id="number"></h2>
+        <h5>Click the button to get next kural (அடுத்த குறளைப் பெற பொத்தானைக் கிளிக் செய்யவும்)</h5>
+        <button onclick="calcNum()">click</button>
+    </div>
+
+
+    <div class="exp">
+        <div class="tam">
+            <h4 id="tamsec"></h4>
+            <h4 id="tam_div"></h4>
+            <h5 id="tachapter"></h5>
+            <p id="line1"></p>
+            <p id="line2"></p>
+            <p id="tam_exp"></p>
+        </div>
+        <div class="eng">
+            <h4 id="ensec"></h4>
+            <h4 id="tam_div"></h4>
+            <h5 id="enchapter"></h5>
+            <p id="en-line1"></p>
+            <p id="eng_exp"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

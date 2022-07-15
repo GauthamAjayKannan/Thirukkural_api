@@ -1,0 +1,125 @@
+body{
+    text-align: center;
+    background: url('thiru.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    height:200%;
+}
+
+.button-sec{
+    width:50%;
+    background-color:rgb(232,170,66,0.7);
+    text-align: center;
+    margin: 2rem auto;
+    padding:2rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+   
+}
+.exp p{
+    font-size: 1.2rem;
+}
+
+.button-sec button{
+    padding:.5rem 3rem;
+    border-radius: 10px;
+    background-color:rgb(207, 133, 5);
+    border-color: rgb(207, 133, 5);
+    margin-top: 1rem;
+}
+
+.button-sec button:hover{
+    background-color:rgb(252, 161, 4);
+    border-color: rgb(255, 162, 3);
+}
+
+header{
+    padding:2rem;
+    background-color:rgb(232,170,66,0.7);
+}
+
+#number{
+    margin: 1rem 0;
+}
+
+.tam{
+    margin-right: 2rem;
+    background-color: rgb(232,170,66,0.7);
+    border-radius: 10px;
+    width:50%;
+    box-sizing: border-box;
+    transition: background-color .35s ease-in-out,transform .35s ease-in-out;
+    cursor: pointer;
+}
+
+.eng{
+    background-color: rgb(232,170,66,0.7);
+    border-radius: 10px;
+    width:50%;
+    box-sizing: border-box;
+    transition: background-color .35s ease-in-out,transform .35s ease-in-out;
+    cursor: pointer;
+}
+
+.tam:hover,.eng:hover{
+    background-color: rgb(232,170,66);
+     transform:translateY(-5px);
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#line1{
+    margin-bottom:0 ;
+}
+
+#line2{
+    text-align: left;
+    width:50%;
+    margin:auto;
+}
+
+h5{
+    margin-bottom: 2rem;
+}
+
+.button-sec h5{
+    line-height: 2rem;
+}
+
+.exp{
+    display: flex;
+    width:90%;
+    margin:3rem auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tam,.eng{
+    padding:2rem;
+}
+
+
+@media  screen and (max-width:1000px) {
+    .exp{
+        flex-direction: column;
+    }
+
+    .tam{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .tam,.eng{
+        width:100%;
+    }
+
+    .button-sec{
+        width:75%;
+    }
+}
